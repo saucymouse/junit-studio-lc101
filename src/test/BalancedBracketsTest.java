@@ -11,6 +11,7 @@ public class BalancedBracketsTest {
     public void emptyTest() {
         assertEquals(10, 10, .001);
         //this is a new line of code
+        //another line of code
     }
 
 }
