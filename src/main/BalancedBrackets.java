@@ -27,24 +27,9 @@ public class BalancedBrackets {
             if (ch == '[') {
                 brackets++;
             } else if (ch == ']') {
-                if (brackets == 0) {
-                    return false;
-                }
                 brackets--;
             }
         }
         return brackets == 0;
     }
-
-//    public static boolean hasBalancedBrackets(String str) {
-//        int brackets = 0;
-//        for (char ch : str.toCharArray()) {
-//            if (ch == '[') {
-//                brackets++;
-//            } else if (ch == ']' && brackets > 0) {
-//                brackets--;
-//            }
-//        }
-//        return brackets == 0;
-//    }
 }
