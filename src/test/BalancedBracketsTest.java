@@ -10,6 +10,7 @@ public class BalancedBracketsTest {
     @Test
     public void emptyTest() {
         assertEquals(10, 10, .001);
+        //this is a new line of code
     }
 
 }
